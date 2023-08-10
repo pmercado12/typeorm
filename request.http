@@ -1,0 +1,22 @@
+###
+http://localhost:3000/api-nodejs/alumnos
+
+###
+POST http://localhost:3000/api-nodejs/alumnos/add
+Content-Type: application/json
+
+{
+    "nombres":"Jessy",
+    "apellidos":"Pinkman",
+    "doc_identidad":6865321
+}
+
+###
+PUT http://localhost:3000/api-nodejs/alumnos/1
+Content-Type: application/json
+
+{
+    "nombres":"Skyler",
+    "apellidos":"White",
+    "doc_identidad":1596872
+}
